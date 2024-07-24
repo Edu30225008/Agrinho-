@@ -1,61 +1,72 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-/*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\cabeçalho/////////////////////////////////////////////////*/
-.img-logo-header{
-    cursor: pointer;
-    width: 70px;
- }
- header, .navegacao-header{
-     display: flex;
-     align-items: center;
- }
- header{
-     height: 3.5em;
-     justify-content: space-between;
-     padding: 0 3%;
-     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
- }
- .navegacao-header{
-     list-style-type: none;
-     gap:1em
- }
- .navegacao-header a{
-     text-decoration: none;
-     color:#1c1c1c;
-     font-weight: bold;
- }
- .busca{
+/* Cabeçalho */
+header, .navegacao-header {
+  display: flex;
+  align-items: center;
+}
+
+header {
+  height: 3.5em;
+  justify-content: space-between;
+  padding: 0 3%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.img-logo-header {
   cursor: pointer;
- }
- .active{
-     background-color: #9ffa97;
-     padding: 10px;
-     border-radius: 10px;
- }
-  /*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\banner///////////////////////////////////////////////////////*/
-  .banner{
-    display: flex;
-    justify-content: space-between;
-    font-size: larger;
-    font-family: Lilita Um;
-    padding: 40px;
-  }
-.texto_banner{
+  width: 70px;
+}
+
+.navegacao-header {
+  list-style-type: none;
+  gap: 1em;
+}
+
+.navegacao-header a {
+  text-decoration: none;
+  color: #1c1c1c;
+  font-weight: bold;
+}
+
+.busca {
+  cursor: pointer;
+}
+
+.active {
+  background-color: #9ffa97;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* Banner */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  font-size: larger;
+  font-family: 'Lilita Um', cursive;
+  padding: 40px;
+}
+
+.texto_banner {
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 20px;
 }
-main section h1{
+
+main section h1 {
   color: orange;
 }
-main section p{
+
+main section p {
   margin-top: 10px;
 }
-/*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\banner-animação//////////////////////////////////////////////////*/
+
+/* Animação do Banner */
 .fade-in {
   animation: fadeIn 1s ease-in-out;
 }
@@ -68,22 +79,57 @@ main section p{
       opacity: 1;
   }
 }
-/*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\conteudo/////////////////////////////////////////////////////*/
-  body{
-    font-family: Arial, Helvetica, sans-serif;
-    color:var(--color-black);
+
+/* Conteúdo */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--color-black);
 }
-/*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\rodapé///////////////////////////////////////////////////////*/
-body footer{
+/*conteudo história*/
+.conteudo_historia{
+  margin-top: 10px;
+}
+
+.titulo_historia{
+  background-color: #9ffa97;
+  border-radius: 10px;
+  padding: 7px;
+  margin: 10px;
+}
+
+.subtitulo1_historias{
+  display: flex;
+  width: 700px;
+  margin-left: 12px;
+  background-color: #9ffa97;
+  padding: 7px;
+  border-radius: 0 25px;
+  justify-content: center;
+}
+
+.texto_historias{
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+  height: 170px;
+}
+
+#historias_lista{
+  list-style-type: none;
+}
+/* Rodapé */
+footer {
   text-align: center;
-  position: absolute;
-  bottom: 0px;
+  bottom: 0;
   background-color: #9ffa97;
   width: 100%;
   height: 40px;
 }
-body footer a {
-  
+
+footer a {
   color: black;
   text-decoration: none;
   padding: 0 100px;
