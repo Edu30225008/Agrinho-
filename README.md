@@ -7,8 +7,17 @@
 
  <b>O nosso site conta com:</b>
  <ul>
-<li>Sistema de conta e meio de interação entre os usuários </li>
+<li>Sistema de conta *em andamento</li>
 <li>Respansividade </li>
 <li>Relatodos de pequenos empreendedores e história de sucesso </li>
 <li> meios de auxilio relacionados a termos legais por meio de IA</li>
  </ul>
+ 
+<b>Objetivos futuros:</b>
+
+<ul>
+ <li>finalização do sistema de contas e implementamento de meio de interação entre usuarios</li>
+ <li>Adição de página de auxilo empresárial</li>
+ <li>adição de páginas para postagens pública</li>
+ <li>adição de sistema de segurança e acesibilidade</li>
+</ul>
